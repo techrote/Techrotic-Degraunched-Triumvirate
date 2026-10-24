@@ -2,7 +2,7 @@
 
 Status: **prepared; substantive ablation campaign not executed**.
 
-Issue #14 permits a preparation-only completion when the admitted
+Source issue [#14](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/14) permits a preparation-only completion when the admitted
 budget/configuration does not supply enough execution admission to run the real
 fine-tunes. TTT-011 records a 24 GPU-hour / £75 / £0-API ceiling, but the current
 repository records no admitted TTT-013 GPU execution host or allocation ID.

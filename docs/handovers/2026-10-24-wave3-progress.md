@@ -3,10 +3,10 @@
 > Wave 3 completed on 24 October 2026. The blockers recorded below were fixed and
 > must not be treated as current work instructions.
 >
-> - TTT-004 / #5 merged through PR #27 as
+> - TTT-004 / [source #5](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/5) merged through [source PR #27](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/27) as
 >   `ffdffb4d0f877a1fc04ad308d15d66dbef6f0cdd`.
 >   Final Base CI and World Concordia parity were green.
-> - TTT-008 / #9 merged through PR #26 as
+> - TTT-008 / [source #9](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/9) merged through [source PR #26](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/26) as
 >   `a70eb28a39527aeb40b69a2e9543eb54a9212b69`.
 >   Its branch was reconciled onto the merged TTT-004 head and final Base CI was green.
 > - The intercept forbidden-value question was resolved in favor of the documented
@@ -25,21 +25,21 @@ Current `main`: `3c3f56f04aa6334ad43e252434f31182adc415c8`.
 
 Completed and merged in this implementation session:
 
-- TTT-001 / #2 — repository/package bootstrap.
-- TTT-002 / #3 — canonical versioned schemas and T0 fixtures.
-- TTT-003 / #4 — `ttt-command-v1`, strict command parser/interpreter and stable rejection taxonomy. Merge: `d4b163ff8b73ec5f9ee913022a4ae0807390ffa2`.
-- TTT-006 / #7 — model-agnostic Creative Teacher/persona subsystem. Merge: `3c3f56f04aa6334ad43e252434f31182adc415c8`.
+- TTT-001 / [source #2](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/2) — repository/package bootstrap.
+- TTT-002 / [source #3](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/3) — canonical versioned schemas and T0 fixtures.
+- TTT-003 / [source #4](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/4) — `ttt-command-v1`, strict command parser/interpreter and stable rejection taxonomy. Merge: `d4b163ff8b73ec5f9ee913022a4ae0807390ffa2`.
+- TTT-006 / [source #7](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/7) — model-agnostic Creative Teacher/persona subsystem. Merge: `3c3f56f04aa6334ad43e252434f31182adc415c8`.
 
 Architecture decisions remain:
 
 - LangGraph: adopted orchestration/checkpoint/branch/replay substrate.
 - Concordia: optional richer simulation/Game-Master host only; TTT canonical semantics remain framework-neutral.
 
-## TTT-004 / #5 — World Authority
+## TTT-004 / [source #5](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/5) — World Authority
 
 Working branch: `feat/ttt-004-world-authority`.
 
-Working PR: #27 — **TTT-004: implement deterministic World Authority with optional Concordia host**.
+Working PR: [source PR #27](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/27) — **TTT-004: implement deterministic World Authority with optional Concordia host**.
 
 Recorded implementation head before this handover:
 `08465580555be3f2d13ddd33a9e436f5fbaa54ed`.
@@ -79,15 +79,15 @@ Recommended resume sequence:
 
 1. Fix those four Ruff findings without changing semantics.
 2. Run Base CI again and address formatter/mypy findings if exposed.
-3. Reconcile #27 against current `main` if any other PR merges first.
+3. Reconcile [source PR #27](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/27) against current `main` if any other PR merges first.
 4. Confirm parity workflow remains green on the exact final head.
-5. Merge #27 and verify #5 closes.
+5. Merge [source PR #27](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/27) and verify [source #5](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/5) closes.
 
-## TTT-008 / #9 — player intercept codec
+## TTT-008 / [source #9](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/9) — player intercept codec
 
 Working branch: `feat/ttt-008-player-intercepts`.
 
-Working PR: #26 — **TTT-008: implement grounded player intercept and deception codec**.
+Working PR: [source PR #26](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/26) — **TTT-008: implement grounded player intercept and deception codec**.
 
 Current PR head:
 `859832aeecbf0cca5a7fd328eef74ca43d450448`.
@@ -140,8 +140,8 @@ Recommended resume sequence:
 1. Resolve the forbidden-value test according to the intended visibility contract.
 2. Apply the Ruff fixes above.
 3. Run Base CI through Ruff format and strict mypy.
-4. Reconcile onto current main after TTT-004 if #27 merges first.
-5. Merge #26 and verify #9 closes.
+4. Reconcile onto current main after TTT-004 if [source PR #27](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/27) merges first.
+5. Merge [source PR #26](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/26) and verify [source #9](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/9) closes.
 
 ## Programme position
 
@@ -149,8 +149,8 @@ Wave 2 is complete.
 
 Wave 3 is active:
 
-- TTT-004 / #5: implemented, functional tests + Concordia parity green; static-quality cleanup pending.
-- TTT-008 / #9: implemented, one visibility-policy test decision + static-quality cleanup pending.
+- TTT-004 / [source #5](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/5): implemented, functional tests + Concordia parity green; static-quality cleanup pending.
+- TTT-008 / [source #9](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/9): implemented, one visibility-policy test decision + static-quality cleanup pending.
 
 Do **not** start model selection or model downloads. TTT-011 remains the explicit model-cast gate.
 

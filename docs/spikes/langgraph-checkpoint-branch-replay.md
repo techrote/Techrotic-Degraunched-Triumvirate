@@ -1,6 +1,6 @@
 # LangGraph checkpoint → branch → correction → replay spike
 
-Issue: #18  
+Issue: [source #18](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/18)  
 Scope: architecture spike only; does not implement TTT-003, TTT-004, or TTT-005.
 
 ## Question
@@ -115,7 +115,7 @@ python -m ttt_langgraph_spike
 
 **Decision: ADOPT LangGraph for TTT orchestration/checkpoint/branch/replay substrate.**
 
-The contained proof passed unchanged in GitHub Actions on PR #19. Use LangGraph as the preferred orchestration/checkpoint/branch substrate for later TTT session and corrective-rollout work, while retaining TTT-owned semantic state, event records, hidden-information policy, hashes, and provenance.
+The contained proof passed unchanged in GitHub Actions on [source PR #19](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/19). Use LangGraph as the preferred orchestration/checkpoint/branch substrate for later TTT session and corrective-rollout work, while retaining TTT-owned semantic state, event records, hidden-information policy, hashes, and provenance.
 
 Do **not** make LangGraph a dependency of the deterministic World Authority itself. The World Authority should remain callable as ordinary deterministic code and testable without LangGraph so the project can replace the orchestration layer later if necessary.
 

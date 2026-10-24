@@ -1,6 +1,6 @@
 # Concordia deterministic Game Master + typed command + visibility spike
 
-Issue: #20  
+Issue: [source #20](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/20)  
 Scope: architecture spike only; does not implement TTT-003, TTT-004, or TTT-005.
 
 ## Question
@@ -141,7 +141,7 @@ python -m ttt_concordia_spike
 
 **Decision: CONDITIONALLY ADOPT Concordia as an optional richer simulation/Game-Master substrate, not as TTT's mandatory deterministic core.**
 
-The exact spike source passed GitHub Actions on PR #21: Concordia's real Sequential engine executed the typed-command path, the fail-fast language model remained untouched, visibility projections stayed separated, invalid commands could not mutate world state, and repeated runs produced identical semantic hashes.
+The exact spike source passed GitHub Actions on [source PR #21](https://github.com/techrote/Techrotic-Training-Triumvirate/pull/21): Concordia's real Sequential engine executed the typed-command path, the fail-fast language model remained untouched, visibility projections stayed separated, invalid commands could not mutate world state, and repeated runs produced identical semantic hashes.
 
 The spike therefore proves that Concordia can sit under TTT contracts and under the already-adopted LangGraph orchestration layer when its entity/scene/Game-Master machinery is useful.
 

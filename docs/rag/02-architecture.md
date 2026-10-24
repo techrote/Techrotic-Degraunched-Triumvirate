@@ -115,7 +115,7 @@ Implement modules behind interfaces rather than a monolith:
 
 ### Orchestration substrate
 
-SPIKE-LG-001 / issue #18 proved LangGraph checkpoint → historical branch/update → correction → replay around a deterministic TTT-style World Authority. The spike decision is to **adopt LangGraph for generic orchestration/checkpoint/branch/replay**, especially TTT-005 session work and TTT-010 corrective rollouts.
+SPIKE-LG-001 / source issue [#18](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/18) proved LangGraph checkpoint → historical branch/update → correction → replay around a deterministic TTT-style World Authority. The spike decision is to **adopt LangGraph for generic orchestration/checkpoint/branch/replay**, especially TTT-005 session work and TTT-010 corrective rollouts.
 
 This does not make LangGraph state canonical TTT state. TTT-owned schemas remain authoritative for command meaning, world semantics, hidden-information views, event records, semantic hashes, corpus identity, and experiment provenance. The deterministic World Authority must remain callable/testable without LangGraph so orchestration can be replaced independently.
 
@@ -144,7 +144,7 @@ TTT-010 builds the student-visited correction layer on the same boundary:
 
 ### Optional simulation substrate
 
-SPIKE-CD-001 / issue #20 proved that Concordia v2.4.0 can run a deterministic non-LLM Game Master through its real Sequential engine while routing JSON actions into strict TTT typed commands and preserving distinct world-private, commander-visible, and player-visible surfaces.
+SPIKE-CD-001 / source issue [#20](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/20) proved that Concordia v2.4.0 can run a deterministic non-LLM Game Master through its real Sequential engine while routing JSON actions into strict TTT typed commands and preserving distinct world-private, commander-visible, and player-visible surfaces.
 
 The decision is **conditional adoption**: Concordia may host richer TTT simulations when its entity, scene, scheduling, or Game-Master machinery is useful, but it is not the mandatory World Authority implementation.
 

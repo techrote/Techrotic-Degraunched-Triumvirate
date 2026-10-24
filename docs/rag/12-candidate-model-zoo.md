@@ -14,7 +14,7 @@
 
 This document records the **candidate characterization shelf** that fed the first small-model decision.
 
-It is **not** an admission source. TTT-011 / issue #12 has now selected and
+It is **not** an admission source. TTT-011 / source issue [#12](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/12) has now selected and
 frozen the initial cast; the authoritative record is
 [11-model-cast-admission.md](11-model-cast-admission.md) plus the committed
 machine-readable model-cast manifest.

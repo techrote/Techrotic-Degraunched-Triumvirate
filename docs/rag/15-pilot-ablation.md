@@ -58,7 +58,7 @@ or allocation identifier. Therefore the substantive LFM2.5-1.2B-Instruct
 four-way fine-tune campaign is **not executed or claimed** by this preparation
 merge.
 
-This is the explicit stopping condition required by issue #14: a recorded
+This is the explicit stopping condition required by source issue [#14](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/14); substantive execution is tracked by local issue [#5](https://github.com/techrote/Techrotic-Degraunched-Triumvirate/issues/5): a recorded
 budget ceiling exists, but an execution allocation does not. A later operator
 may prepare the exact campaign with:
 

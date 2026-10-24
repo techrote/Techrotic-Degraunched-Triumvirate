@@ -16,7 +16,7 @@ The initial cast is now admitted: Sprocket 500M is the creative/reference teache
 
 ## Start here
 
-- [Programme tracker](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/1)
+- [Programme tracker](https://github.com/techrote/Techrotic-Degraunched-Triumvirate/issues/1)
 - [Agent execution contract](AGENTS.md)
 - [Development workflow](docs/development.md)
 - [RAG index](docs/rag/00-index.md)
@@ -72,20 +72,20 @@ See [docs/development.md](docs/development.md) for the supported-Python, depende
 
 Merged foundations now include:
 
-- TTT-001 / #2 — reproducible Python package, deterministic tooling and CI;
-- TTT-002 / #3 — canonical versioned schemas, T0 fixtures and content hashing;
-- TTT-003 / #4 — `ttt-command-v1`, strict typed command parsing and deterministic admission;
-- TTT-004 / #5 — framework-neutral deterministic World Authority, replay, delayed execution failures, visibility projections and optional Concordia parity host;
-- TTT-005 / #6 — optional LangGraph-backed semantic sessions with deterministic structured/text/delta views, hash-verified recording/replay, and historical correction branches;
-- TTT-006 / #7 — model-agnostic persona mutation and Creative Teacher adapters;
-- TTT-007 / #8 — validated deterministic corpus assembly, provenance/license quarantine, deduplication and leak-safe split discipline;
-- TTT-008 / #9 — grounded player intercepts, deterministic doctrine/visibility policies and explicit deception broadcasts;
-- TTT-009 / #10 — frozen model-agnostic evaluation suites, deterministic baselines, leakage/recovery scoring and the immutable training blacklist;
-- TTT-010 / #11 — LangGraph-backed student-visited corrective rollouts, deterministic oracle repair, branch-preserving T3 recovery corpora and replay-correction adapters;
-- TTT-011 / #12 — admitted initial model cast, immutable native/GGUF identities, licensing and characterization evidence;
-- TTT-012 / #13 — reproducible fine-tuning profiles, assistant-only loss mapping, deterministic checkpoint/resume, export manifests and inference parity.
+- TTT-001 / [source #2](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/2) — reproducible Python package, deterministic tooling and CI;
+- TTT-002 / [source #3](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/3) — canonical versioned schemas, T0 fixtures and content hashing;
+- TTT-003 / [source #4](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/4) — `ttt-command-v1`, strict typed command parsing and deterministic admission;
+- TTT-004 / [source #5](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/5) — framework-neutral deterministic World Authority, replay, delayed execution failures, visibility projections and optional Concordia parity host;
+- TTT-005 / [source #6](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/6) — optional LangGraph-backed semantic sessions with deterministic structured/text/delta views, hash-verified recording/replay, and historical correction branches;
+- TTT-006 / [source #7](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/7) — model-agnostic persona mutation and Creative Teacher adapters;
+- TTT-007 / [source #8](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/8) — validated deterministic corpus assembly, provenance/license quarantine, deduplication and leak-safe split discipline;
+- TTT-008 / [source #9](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/9) — grounded player intercepts, deterministic doctrine/visibility policies and explicit deception broadcasts;
+- TTT-009 / [source #10](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/10) — frozen model-agnostic evaluation suites, deterministic baselines, leakage/recovery scoring and the immutable training blacklist;
+- TTT-010 / [source #11](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/11) — LangGraph-backed student-visited corrective rollouts, deterministic oracle repair, branch-preserving T3 recovery corpora and replay-correction adapters;
+- TTT-011 / [source #12](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/12) — admitted initial model cast, immutable native/GGUF identities, licensing and characterization evidence;
+- TTT-012 / [source #13](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/13) — reproducible fine-tuning profiles, assistant-only loss mapping, deterministic checkpoint/resume, export manifests and inference parity.
 
-**Waves 4–6 are merged.** TTT-011 / #12 selected and froze the initial model cast; TTT-012 / #13 now supplies the reproducible training/export gate required before pilot experiments.
+**Waves 4–6 are merged.** TTT-011 / [source #12](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/12) selected and froze the initial model cast; TTT-012 / [source #13](https://github.com/techrote/Techrotic-Training-Triumvirate/issues/13) now supplies the reproducible training/export gate required before pilot experiments.
 
 The initial model cast is **SELECTED** by TTT-011. TTT-012 resolves training identities from that admission rather than hard-coding model revisions in the trainer.
 
